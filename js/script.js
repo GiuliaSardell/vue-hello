@@ -4,7 +4,8 @@ const app = new Vue({
   data: {
     testo: 'Ciao',
     nome: 'Giulia',
-    colore: 'rosa'
+    colore: 'rosa',
+    immagine: ''
   },
 
   methods: {
