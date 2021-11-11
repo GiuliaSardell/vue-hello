@@ -18,10 +18,8 @@
     <button @click="coloreBlue">Diventa blu</button>
     <button @click="coloreRosa">Torna rosa</button>
     <button @click="cancella">Cancella</button>
-    <div id="img" v-bind:class="immagineFunction">
-      <button>Img</button>
-    </div>
-    <img src="" alt="">
+  
+    <img :src="immagine" alt="dog">
   
 
 
